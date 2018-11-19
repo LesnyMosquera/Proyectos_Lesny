@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use\App\Cliente;
 
@@ -64,7 +63,7 @@ class ClienteController extends Controller
 
     public function edit($id)
     {
-     $dato=Cliente::find($id);
+     $dato=Cliente::findOrFail($id);
      return view('clientes.editarCliente', compact('dato'));
     }
 
@@ -78,16 +77,14 @@ class ClienteController extends Controller
         $actualizarCliente->Telefono=$request->telefono;
         $actualizarCliente->Ciudad=$request->ciudad;
        $actualizarCliente->save();
+       return $actualizarCliente;
        return redirect()->route('cliente.index');
     }
 
     
     public function destroy($id)
     {
-        $eliminarCliente=Cliente::find($id);
-        // return ($eliminarCliente);
-        
-        $eliminarCliente->delete();
+       Cliente::findOrFail($id)->delete();
         return redirect()->route('cliente.index');
 
 

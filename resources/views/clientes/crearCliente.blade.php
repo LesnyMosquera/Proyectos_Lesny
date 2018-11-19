@@ -1,6 +1,7 @@
+0  0  dd acc5
+@exten   . 0.v0cbv>>Z<xzccvvbnmm,,.-ds('Plantillas.principal')
 
-@extends('Plantillas.principal')
-@extends('Plantillas.librerias')
+·xs00000001@extends('Plantillas.librerias')
 
 @section('cuerpo')
 
@@ -19,24 +20,24 @@
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-@endif
-
-  @include('flash::message')
-
-</legend>
-
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">Cedula o Nit</label>  
-  <div class="col-md-6 inputGroupContainer">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="nit" id="nit" placeholder="numero de cedula o nit" class="form-control"  type="text">
+ @
+ @
+ @
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@@
+@
+@phicon-user"></i></span>
+@la o nit" class="form-control"  type="text">
     </div>
   </div>
 </div>

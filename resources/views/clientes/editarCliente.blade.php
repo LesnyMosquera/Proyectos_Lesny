@@ -8,7 +8,7 @@
 <div class="container">
 
   {{--   <form class="well form-horizontal" action=" " method="post"  id="contact_form"> --}}
-      {!! Form::open(['route'=>['cliente.update',$dato], 'method'=>'put','class'=>'well form-horizontal']) !!}
+      {!! Form::open(['route'=>['cliente.update',$dato->id], 'method'=>'put','class'=>'well form-horizontal']) !!}
 <fieldset>
 
 <!-- Form Name -->

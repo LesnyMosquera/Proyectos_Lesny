@@ -24,31 +24,7 @@
                         <li><a href="#">Otro</a></li>
                     </ul>
                 </li>
-                <li><a class="hsubs" href="#">Proveedores</a>
-                    <ul class="subs">
-                        <li><a href="#">Submenu 2-1</a></li>
-                        <li><a href="#">Submenu 2-2</a></li>
-                        <li><a href="#">Submenu 2-3</a></li>
-                        <li><a href="#">Submenu 2-4</a></li>
-                        <li><a href="#">Submenu 2-5</a></li>
-                        <li><a href="#">Submenu 2-6</a></li>
-                        <li><a href="#">Submenu 2-7</a></li>
-                        <li><a href="#">Submenu 2-8</a></li>
-                    </ul>
-                </li>
-                <li><a class="hsubs" href="#">Productos</a>
-                    <ul class="subs">
-                        <li><a href="#">Medicamentos</a></li>
-                        <li><a href="#">Celulares</a></li>
-                        <li><a href="#">Cosmetico</a></li>
-                        <li><a href="#">Electrodomesticos</a></li>
-                        <li><a href="#">Papeleria</a></li>
-                        <li><a href="#">Otros</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Inventario</a></li>
-                <li><a href="#">Reportes</a></li>
-                <li><a href="{{ url('/') }}">Salir</a></li>
+             
                 <li><a href="http://www.script-tutorials.com/pure-css3-lavalamp-menu/">Back</a></li>
                 <div id="lavalamp"></div>
             </ul>

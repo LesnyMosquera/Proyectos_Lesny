@@ -1,7 +1,7 @@
-@extends('Plantillas.principal')
-@extends('Plantillas.librerias')
 
-@section('cuerpo')
+@extends('Plantillas.dash')
+@section('contenido')
+
 <center><h2>Lista de clientes registrado</h2></center>
 <br>
 <a href="{{ route('cliente.create') }}" onclick="return confirm('Desea crear un nuevo cliente?')" class="btn btn-info">Agregar Cliente</a><p>

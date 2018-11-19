@@ -26,6 +26,9 @@ Route::get('menu', function () {
 Route::get('listar', function () {
     return view('clientes.editarCliente');
 });
+Route::get('plantilla', function() {
+    return view('Plantillas.dash');
+});
 
 
 Auth::routes();
@@ -46,3 +49,4 @@ Route::resource('producto','ProductoController');
 });
 route::get('eliminar/destroy/{id}','PerfilController@destroy')->name('admin.eliminar');
 route::get('eliminarCliente/destroy/{id}','ClienteController@destroy')->name('admin.eliminarCliente');
+

@@ -27,8 +27,9 @@ class userController extends Controller
      */
     public function create()
     {
-       return view('auth.register');
-        dd('Esto es una prueba de la ruta create');
+        $perfiles=Perfil::all();
+       return view('auth.register')->with('perfiles',$perfiles);
+        
     }
 
     /**

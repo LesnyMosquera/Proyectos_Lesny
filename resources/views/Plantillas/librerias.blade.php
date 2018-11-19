@@ -7,8 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<link rel="stylesheet" href="{{asset('librerias/bootstrap/css/bootstrap.min.css')}}"> 
-	<link rel="stylesheet" href="{{asset('librerias/bootstrap/js/bootstrap.min.js')}}">
-	<link rel="stylesheet" href="{{asset('librerias/jquery/jquery-3.2.1.js')}}">
+	<link rel="stylesheet" href="{{ asset('librerias/bootstrap/js/bootstrap.min.js')">
+	<linkrel="stylesheet"href="asset('librerias/jquery/jquery-3.2.1.js')"> }}
 	<link rel="stylesheet" href="{{asset('librerias/sweetalert/sweetalert2.min.css')}}">
 
 	<script src="{{asset('librerias/sweetalert/sweetalert2.min.js')}}"></script>
